@@ -1,0 +1,7 @@
+interface:
+  display_name: "给阿嬷的情书"
+  short_description: "侨批情书代笔，写出旧式家书里的中式深情。"
+  default_prompt: "使用 $gei-ama-de-qingshu 为我代写一封含蓄深情的中文侨批家书。"
+
+policy:
+  allow_implicit_invocation: true
