@@ -23,7 +23,7 @@
 
 | 文字卡片 | 手写信 | 侨批信笺 |
 | --- | --- | --- |
-| `assets/demo-card.png` | `assets/demo-letter.png` | `assets/demo-qiaopi.png` |
+| ![文字卡片](assets/demo-card.png) | ![手写信](assets/demo-letter.png) | ![侨批信笺](assets/demo-qiaopi.png) |
 
 ## 目录
 
@@ -159,25 +159,6 @@ Skill 内完整收录并强制复用了一批核心原话与句式，例如：
 
 这个 Skill 不只会写信，也能帮你把信变成适合图片模型的提示词。
 
-### Demo 图片接口
-
-如果你要在 README 里展示生成效果，建议建立这个结构：
-
-```text
-assets/
-├── demo-card.png
-├── demo-letter.png
-└── demo-qiaopi.png
-```
-
-然后把上方 Demo 区域里的注释取消：
-
-```markdown
-![文字卡片 Demo](assets/demo-card.png)
-![手写信 Demo](assets/demo-letter.png)
-![侨批信笺 Demo](assets/demo-qiaopi.png)
-```
-
 示例请求：
 
 ```text
@@ -200,8 +181,6 @@ assets/
 ```text
 生成一张中文手写信图片。画面是一张米白色旧信纸，纸面有轻微折痕和自然纸纹，放在温暖木桌上，旁边有一只旧信封。信纸上用深褐色钢笔字写着：“与你异地半年，心里常像空着一副碗筷。南京这几日没前些天热了，晚风也软。月底若你能来，我想陪你慢慢走一走，吃顿热饭，把这半年没说完的话，当面说给你听。”整体氛围中式、克制、温柔、像久别后寄来的家书。自然窗光，浅景深，文字清晰端正，留白充足。不要英文，不要拼音，不要西式玫瑰海报，不要爱心贴纸，不要乱码，不要错别字。
 ```
-
-提示：当前多数图片模型生成中文长文本仍可能出错。更稳的方式是先生成无字信纸背景，再把短文用设计工具叠加。
 
 ## 场景示例
 
